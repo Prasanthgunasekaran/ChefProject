@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif
+}
+
+/* NavBars */
+.navTitle {
+    display: flex;
+    justify-content: space-between;
+    background-color: #08316D;
+}
+
+.title {
+    margin-left: 4rem;
+
+}
+
+.navbtn {
+    margin: 0.5rem 3rem;
+
+}
+
+.navbtn>.btn1 {
+    margin-left: 2rem;
+    padding: 10px;
+
+    border-radius: 0.2rem;
+
+}
+
+.navbtn>.btn2 {
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 0.2rem;
+
+}
+
+/* About Page */
+.aboutTitle {
+    background-image: url(components/assets/img/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* padding: 6rem; */
+    color: white;
+    height: 100vh;
+}
+
+.aboutTxt {
+    padding: 6rem;
+    font-size: 2rem;
+}
+
+.aboutTxt>p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+.aboutbtn>input {
+    /* padding: 6rem;
+    font-size: 2rem; */
+    margin-top: 3rem;
+    width: 600px;
+    height: 45px;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.btnchef {
+    position: absolute;
+    bottom: 218.5px;
+    left: 609px;
+    background-color: #08316D;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* About Page2 */
+.abtTitle {
+    text-align: center;
+    margin-top: 3rem;
+    color: #08316D;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.abtGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-top: 3rem; */
+}
+
+.gridMain1 {
+    padding: 7rem;
+    text-align: center;
+}
+
+.gridMain1>h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.gridMain1>p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.gridMain2 {
+    padding: 7rem;
+    text-align: center;
+}
+
+.gridMain2>h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.gridMain2>p {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+.gridMain3 {
+    padding: 7rem;
+    text-align: center;
+}
+
+.gridMain3>h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.gridMain3>p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.chefTitle {
+    text-align: center;
+    color: #08316D;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.cheflist {
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 23rem;
+    font-size: 0.9rem;
+}
+
+.listIcon {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.listIcon>p {
+    margin-left: 0.5rem;
+}
+
+.listIcon>img {
+    width: 15px;
+    height: 15px;
+}
+
+.testmodel {
+    display: flex;
+    text-align: center;
+    padding: 10rem;
+    column-gap: 3rem;
+    margin-top: -6rem;
+    /* border: 1px solid #08316D; */
+}
+
+.boxIcon {
+    display: flex;
+    margin-left: 6rem;
+    margin-top: -2rem;
+
+}
+
+.boxIcon>img {
+    width: 27px;
+    height: 27px;
+}
+
+.boxIcon>h4 {
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
+    color: #08316D;
+}
+
+.box {
+    border: 1px solid #08316D;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.box>p {
+    padding: 60px;
+    margin-top: -2rem;
+
+}
+
+.box:hover {
+    border: 2px solid #08316D;
+
+}
+
+.vegimg {
+    text-align: right;
+    margin-bottom: 0.9rem;
+    margin-top: -3rem;
+
+    display: flex;
+    justify-content: right;
+}
+
+/* Footer page */
+/* .footer {
+    background-color: #08316D;
+    margin-top: -5rem;
+    padding: 4rem;
+
+}
+
+.footerTitle {
+    display: flex;
+    justify-content: space-around;
+}
+.footerLogo>img{
+width:70px;
+height:60px ;
+} */
+.footer>img {
+    width: 100%;
+    height: 100%;
+    margin-top: -2rem;
+}
+
+.abtnavTitle>img {
+    width: 100%;
+    height: 100%;
+}
+
+/* About Page Css */
+.backgrd {
+    background-color: antiquewhite;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.dropDown {
+    border: 2px solid lightgray;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 9rem;
+    background-color: white;
+
+}
+
+.dropDown>select {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+/* .abtCard>img {}
+ */
+
+
+/* Footer page */
+.footerAbt>img {
+    width: 100%;
+    height: 100%;
+}
